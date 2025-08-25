@@ -7,7 +7,6 @@ export default withPageShell(
     mainClassName: "bg-gray-800", // example
   },
   {
-    header: "sticky", // overlays content
     seo: {
       title: "About - Sandbox Portfolio",
       description: "A demo by Sandbox.",

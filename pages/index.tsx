@@ -7,7 +7,6 @@ export default withPageShell(
     /* mainClassName?: "..." */
   },
   /* pageOptions */ {
-    header: "sticky",
     seo: {
       title: "Home - Sandbox Portfolio",
       description: "A demo by Sandbox.",

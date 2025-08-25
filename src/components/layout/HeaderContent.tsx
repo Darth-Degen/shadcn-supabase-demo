@@ -3,7 +3,6 @@ import { FC } from "react";
 import { Logo, Menu, ThemeSwitch } from "@components";
 import { PAGES } from "@constants";
 import Link from "next/link";
-import { ConnectWalletButton } from "@domains-solana";
 
 const HeaderContent: FC = () => {
   return (
@@ -22,9 +21,7 @@ const HeaderContent: FC = () => {
             </Link>
           ))}
         </div>
-        <ConnectWalletButton />
         <ThemeSwitch />
-        {/* Only renders on mobile */}
         <Menu />
       </div>
     </div>
